@@ -2,5 +2,6 @@
 /Users/chekushka228/Documents/453502/ОАиП/LR7/cmake-build-debug/CMakeFiles/Task_2.dir
 /Users/chekushka228/Documents/453502/ОАиП/LR7/cmake-build-debug/CMakeFiles/Task_3.dir
 /Users/chekushka228/Documents/453502/ОАиП/LR7/cmake-build-debug/CMakeFiles/Task_4.dir
+/Users/chekushka228/Documents/453502/ОАиП/LR7/cmake-build-debug/CMakeFiles/Task_5.dir
 /Users/chekushka228/Documents/453502/ОАиП/LR7/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/chekushka228/Documents/453502/ОАиП/LR7/cmake-build-debug/CMakeFiles/rebuild_cache.dir

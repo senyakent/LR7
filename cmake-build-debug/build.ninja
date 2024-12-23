@@ -188,6 +188,43 @@ build Task_4: CXX_EXECUTABLE_LINKER__Task_4_Debug CMakeFiles/Task_4.dir/Task_4/m
   TARGET_FILE = Task_4
   TARGET_PDB = Task_4.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Task_5
+
+
+#############################################
+# Order-only phony target for Task_5
+
+build cmake_object_order_depends_target_Task_5: phony || .
+
+build CMakeFiles/Task_5.dir/Task_5/main.cpp.o: CXX_COMPILER__Task_5_unscanned_Debug /Users/chekushka228/Documents/453502/ОАиП/LR7/Task_5/main.cpp || cmake_object_order_depends_target_Task_5
+  DEP_FILE = CMakeFiles/Task_5.dir/Task_5/main.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Task_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Task_5.dir/Task_5
+
+build CMakeFiles/Task_5.dir/Task_5/Task_5.cpp.o: CXX_COMPILER__Task_5_unscanned_Debug /Users/chekushka228/Documents/453502/ОАиП/LR7/Task_5/Task_5.cpp || cmake_object_order_depends_target_Task_5
+  DEP_FILE = CMakeFiles/Task_5.dir/Task_5/Task_5.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Task_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Task_5.dir/Task_5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Task_5
+
+
+#############################################
+# Link the executable Task_5
+
+build Task_5: CXX_EXECUTABLE_LINKER__Task_5_Debug CMakeFiles/Task_5.dir/Task_5/main.cpp.o CMakeFiles/Task_5.dir/Task_5/Task_5.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/Task_5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Task_5
+  TARGET_PDB = Task_5.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -222,7 +259,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/chekushka228/Documents/453502/ОАиП/LR7/cmake-build-debug
 
-build all: phony Task_1 Task_2 Task_3 Task_4
+build all: phony Task_1 Task_2 Task_3 Task_4 Task_5
 
 # =============================================================================
 # Built-in targets
